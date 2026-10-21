@@ -16,7 +16,7 @@ Adapted from the Firstmate project's omp Calm port, from Kun Chen's [Pi version]
 omp loads every extension folder under `~/.omp/agent/extensions/`, so clone this repo there as `calm`:
 
 ```bash
-git clone https://github.com/narth-code/calm-amp-extension.git ~/.omp/agent/extensions/calm
+git clone https://github.com/narth-code/calm-omp-extension.git ~/.omp/agent/extensions/calm
 ```
 
 Restart omp (or run `/reload`), then type `/calm`. To update later, run `git -C ~/.omp/agent/extensions/calm pull`.
